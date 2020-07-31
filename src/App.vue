@@ -1,17 +1,14 @@
 <template>
-  <div id="app">
+  <div id="app">             
     <!-- 配置一下 程序唯一的出口 -->
-    <router-view></router-view>
+    <router-view/>
   </div>
 </template>
 <script>
-import HelloWord from "./components/HelloWorld.vue"
-export default {
-    name:"App",
-    components:{
-      HelloWord
-    }
-}
+
+
+
+
 </script>
 <style>
 /*  样式初始化 */
