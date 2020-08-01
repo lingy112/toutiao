@@ -8,6 +8,13 @@ import store from './store'
 
 
 import Vue2Editor from "vue2-editor";
+// 引入 ElementUI  组件库
+import {Message} from "element-ui"
+Vue.prototype.$message = Message;
+// import ElementUI from 'element-ui';
+// Vue.use(ElementUI);
+// // 引入elementul css样式
+// import 'element-ui/lib/theme-chalk/index.css';npm install babel-plugin-component -D
 
 // 引入axios
 import axios from "./common/myaxios"
