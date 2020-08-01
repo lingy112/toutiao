@@ -72,7 +72,7 @@ export default {
         {id:2,text:"写文章",type:"article"}
       ],
       activeTab:'article',// tt 是头条,
-      html_content:'请输入正文.....',
+      html_content:'请输入正文.........',
       title:' 请输入标题'//标题
     };
   },
